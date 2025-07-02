@@ -7,13 +7,13 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/03b438110148799.5fe4de99368ea.jpg" alt="logo" id="logo">
-        <nav>
+    <header id="header">
+        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/03b438110148799.5fe4de99368ea.jpg" alt="logo" id="header-img">
+        <nav id="nav-bar">
             <ul>
-                <li> <a href="#about">About</a></li>
-                <li> <a href="#catalogue">Catalogue</a></li>
-                <li> <a href="#contact">Contact</a></li>
+                <li> <a href="#about" class="nav-link">About</a></li>
+                <li> <a href="#catalogue" class="nav-link">Catalogue</a></li>
+                <li> <a href="#contact" class="nav-link">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -41,8 +41,37 @@
                 <button type="button" class="selectimg3">Select</button>
 
             </div>
-
         </section>
+
+        <section class="contact_us">
+            <form id="form">
+                <label for="full-name"> Name:
+                    <input name = "fullName" id="full-name" type="text">
+                </label>
+                <label for="email"> Email:
+                    <input name = "Email" id="email" type="email">
+                </label>
+                <label for="message"> Message:
+                     <input name="Message" id="message" type="text" >
+                </label>
+            </form>
+
+            <input type="submit" name="Send" id="submit" value="Send">
+        </section>
+
+        
+        <footer id="nav-footer">
+            <ul>
+                <li>
+                    <a href="#">Privacy</a>
+                </li>
+                <li>
+                    <a href="#">Terms</a>
+                </li>
+            </ul>
+            <p id="copyrightText">copyright</p>
+        </footer>
+
     </main>
 </body>
 </html
