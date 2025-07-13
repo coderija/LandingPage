@@ -17,46 +17,46 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <section class ="about_us">
+    <main id="page-wrapper">
+        <section class ="about_us"> 
             <h1 id="about">About Us</h1>
             <div>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
             </div>
+
+            <iframe id="video" src="https://www.youtube.com" frameborder="0" allowfullscreen></iframe>
         </section>
 
         <section class="our_catalogue">
             <h1 id="catalogue">Our Catalogue</h1>
             <div class="img1">
-                <img src="https://www.free-mockup.com/wp-content/uploads/edd/2024/02/Free-Black-T-Shirt-Clothing-Mockups-00-1000x750.jpg" alt="">
+                <img src="https://www.free-mockup.com/wp-content/uploads/edd/2024/02/Free-Black-T-Shirt-Clothing-Mockups-00-1000x750.jpg" alt="T-shirt mockup">
                 <button type="button" class="selectimg1">Select</button>
             </div>
             <div class="img2">
-                <img src="https://www.free-mockup.com/wp-content/uploads/edd/2024/02/Free-Black-T-Shirt-Clothing-Mockups-00-1000x750.jpg" alt="">
+                <img src="https://www.free-mockup.com/wp-content/uploads/edd/2024/02/Free-Black-T-Shirt-Clothing-Mockups-00-1000x750.jpg" alt="T-shirt mockup">
                 <button type="button" class="selectimg2">Select</button>
             </div>
             <div class="img3">
-                <img src="https://www.free-mockup.com/wp-content/uploads/edd/2024/02/Free-Black-T-Shirt-Clothing-Mockups-00-1000x750.jpg" alt="">
+                <img src="https://www.free-mockup.com/wp-content/uploads/edd/2024/02/Free-Black-T-Shirt-Clothing-Mockups-00-1000x750.jpg" alt="T-shirt mockup">
                 <button type="button" class="selectimg3">Select</button>
 
             </div>
         </section>
 
         <section class="contact_us">
-            <form id="form">
+            <h1 id="contact"> Contact Us</h1>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
                 <label for="full-name"> Name:
-                    <input name = "fullName" id="full-name" type="text">
+                    <input name = "fullName" id="full-name" type="text" placeholder="Enter your name" required>
                 </label>
                 <label for="email"> Email:
-                    <input name = "Email" id="email" type="email">
+                    <input name = "email" id="email" type="email" placeholder="Enter your email address" required>
                 </label>
                 <label for="message"> Message:
-                     <input name="Message" id="message" type="text" >
-                </label>
+                     <textarea name="message" id="message" placeholder="Enter your message" required></textarea>
+                <input type="submit" name="Send" id="submit" value="Send">
             </form>
-
-            <input type="submit" name="Send" id="submit" value="Send">
         </section>
 
         
@@ -74,4 +74,4 @@
 
     </main>
 </body>
-</html
+</html>
