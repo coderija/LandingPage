@@ -197,3 +197,26 @@ body {
     color: #ECDFCC;
     border:none;
 }
+#nav-footer{
+    background-color: #3C3D37;
+    padding: 1rem;
+    margin-top: 4rem;
+    text-align: center;
+    background: linear-gradient(141deg, #181C14 0%, #3C3D37 40%, #697565 90%)
+
+}
+#nav-footer ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-bottom: 1rem;
+    gap: 2rem;
+}
+#nav-footer a{
+    color: #ECDFCC;
+    text-decoration: none;
+}
+#copyrightText {
+    color: #181C14;
+    font-size: 1rem
+}
