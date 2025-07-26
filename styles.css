@@ -151,7 +151,7 @@ body {
     margin-bottom: 2.5rem;
 }
 #form{
-    max-width: 600px;
+    max-width: 500px;
     margin: 2rem auto ; 
     display: flex;
     flex-direction: column;
@@ -219,4 +219,52 @@ body {
 #copyrightText {
     color: #181C14;
     font-size: 1rem
+}
+
+/* responsive design */
+@media (max-width: 768px){
+    #header{
+        flex-direction:row;
+        padding: 1rem;
+        
+    }
+    #nav-bar ul{
+        gap: 1rem;
+        margin-top: 0.1rem;
+    }
+    #page-wrapper{
+        margin-top: 120px;
+    }
+    #about, #catalogue, #contact {
+        font-size: 2rem;
+    }
+    #video{
+            height: 450px;
+        }
+    #nav-footer ul {
+        gap: 1rem;
+    }
+     .nav-link {
+        padding: 0.3rem 0.5rem;
+    }
+}
+
+@media(max-width: 480px){
+   .about_us p{
+    padding: 10px;
+    }
+    form{
+        width: 290px;
+    }
+    #video{
+        width: 90%;
+        height: 250px;
+    }
+    #about, #catalogue, #contact {
+        font-size: 1.8rem;
+    }
+     .nav-link {
+        padding: 0.3rem 0.5rem;
+        font-size: 0.9rem;
+     }
 }
